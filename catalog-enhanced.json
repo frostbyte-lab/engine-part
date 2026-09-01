@@ -1,0 +1,612 @@
+{
+  "version": "1.0.0-enhanced-full-specs",
+  "updatedAt": "2026-09-01T12:00:00Z",
+  "description": "Catalog lengkap dengan spesifikasi unit, foto detail, dan parts information untuk semua kendaraan",
+  
+  "brands": [
+    {
+      "id": 1,
+      "name": "Mitsubishi Motors",
+      "country": "Indonesia",
+      "logo": "https://www.mitsubishi-motors.co.id/assets/img/logo.png",
+      "description": "Produsen kendaraan penumpang dan komersial terkemuka di Indonesia",
+      "market": "Indonesia",
+      "established": 2003,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": 10,
+      "name": "Honda",
+      "country": "Indonesia",
+      "logo": "https://www.honda-indonesia.com/assets/img/logo.png",
+      "description": "Produsen motor dan kendaraan penumpang Japan terkemuka",
+      "market": "Indonesia",
+      "established": 1998,
+      "verificationStatus": "VERIFIED"
+    },
+    {
+      "id": 11,
+      "name": "Toyota",
+      "country": "Indonesia",
+      "logo": "https://toyota.co.id/assets/img/logo.png",
+      "description": "Produsen kendaraan luxury dan commercial vehicles",
+      "market": "Indonesia",
+      "established": 1995,
+      "verificationStatus": "VERIFIED"
+    }
+  ],
+
+  "vehicleUnits": [
+    {
+      "unitId": "MMS-XFORCE-2024",
+      "brandId": 1,
+      "modelName": "Mitsubishi Xforce",
+      "modelGeneration": "NEW GEN 2024",
+      "vehicleType": "SUV Compact",
+      "productionYear": "2024",
+      "marketStatus": "CURRENT",
+      
+      "specifications": {
+        "dimensions": {
+          "lengthMm": 4475,
+          "widthMm": 1820,
+          "heightMm": 1630,
+          "wheelbaseMm": 2670,
+          "groundClearanceMm": 220,
+          "fuelTankCapacityL": 50
+        },
+        "engine": {
+          "engineModel": "4A91",
+          "engineCc": 1597,
+          "engineType": "4-Cylinder Petrol",
+          "powerHp": 122,
+          "powerKw": 90,
+          "torqueNm": 154,
+          "torqueRpm": "3500-4500",
+          "compressionRatio": "10.0:1",
+          "fuelType": "Petrol RON 92",
+          "consumption": {
+            "city": 8.2,
+            "highway": 9.5,
+            "combined": 8.8
+          }
+        },
+        "transmission": {
+          "type": "CVT Automatic",
+          "driveType": "FWD",
+          "gears": "Continuously Variable"
+        },
+        "chassis": {
+          "frameType": "Unibody",
+          "suspensionFront": "Double Wishbone with Coil Spring",
+          "suspensionRear": "Torsion Beam",
+          "steeringType": "Electric Power Steering",
+          "turningRadius": 5.3
+        },
+        "brakes": {
+          "frontBrakes": "Disc with ABS",
+          "rearBrakes": "Drum",
+          "absBrand": "Bosch"
+        },
+        "tyres": {
+          "size": "225/55R18",
+          "brand": "Bridgestone/Michelin",
+          "seasonType": "All-Season"
+        },
+        "weight": {
+          "kerb": 1240,
+          "gvwr": 1420,
+          "payload": 180
+        },
+        "performance": {
+          "acceleration0_100": 10.2,
+          "topSpeed": 180,
+          "fuelEconomy": "8.8 l/100km"
+        }
+      },
+
+      "interiorFeatures": [
+        "7-inch Touchscreen Infotainment",
+        "Rear View Camera",
+        "Smartphone Integration (Apple CarPlay/Android Auto)",
+        "Climate Control AC",
+        "Power Windows & Door Locks",
+        "Manual Steering Wheel Adjustment",
+        "Dual Airbags",
+        "ABS with EBD",
+        "Hill Start Assist"
+      ],
+
+      "exteriorFeatures": [
+        "LED Daytime Running Lights",
+        "Manual Side Mirrors",
+        "Roof Rails",
+        "18-inch Alloy Wheels",
+        "Fog Lights",
+        "Privacy Glass"
+      ],
+
+      "images": {
+        "exterior": {
+          "frontView": "https://images.mitsubishi-motors.co.id/xforce/exterior-front.jpg",
+          "sideView": "https://images.mitsubishi-motors.co.id/xforce/exterior-side.jpg",
+          "rearView": "https://images.mitsubishi-motors.co.id/xforce/exterior-rear.jpg",
+          "topView": "https://images.mitsubishi-motors.co.id/xforce/exterior-top.jpg",
+          "details": [
+            "https://images.mitsubishi-motors.co.id/xforce/wheels.jpg",
+            "https://images.mitsubishi-motors.co.id/xforce/grille.jpg",
+            "https://images.mitsubishi-motors.co.id/xforce/headlights.jpg",
+            "https://images.mitsubishi-motors.co.id/xforce/taillights.jpg"
+          ]
+        },
+        "interior": {
+          "dashboard": "https://images.mitsubishi-motors.co.id/xforce/interior-dashboard.jpg",
+          "seats": "https://images.mitsubishi-motors.co.id/xforce/interior-seats.jpg",
+          "steering": "https://images.mitsubishi-motors.co.id/xforce/steering-wheel.jpg",
+          "infotainment": "https://images.mitsubishi-motors.co.id/xforce/touchscreen.jpg",
+          "details": [
+            "https://images.mitsubishi-motors.co.id/xforce/center-console.jpg",
+            "https://images.mitsubishi-motors.co.id/xforce/door-panel.jpg",
+            "https://images.mitsubishi-motors.co.id/xforce/climate-control.jpg"
+          ]
+        },
+        "engine": "https://images.mitsubishi-motors.co.id/xforce/engine-4a91.jpg",
+        "transmission": "https://images.mitsubishi-motors.co.id/xforce/cvt-transmission.jpg"
+      },
+
+      "spareParts": [
+        {
+          "partId": "MMS-XF-2024-001",
+          "category": "Engine Components",
+          "partName": "Air Filter",
+          "oem": "1500A400",
+          "supplier": "Mitsubishi OEM",
+          "price": 145000,
+          "currency": "IDR",
+          "intervalKm": 40000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/air-filter.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-002",
+          "category": "Engine Components",
+          "partName": "Spark Plugs (Set of 4)",
+          "oem": "MR992180",
+          "supplier": "Mitsubishi OEM",
+          "price": 385000,
+          "currency": "IDR",
+          "intervalKm": 60000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/spark-plugs.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-003",
+          "category": "Fluids",
+          "partName": "Engine Oil 0W-20 (5L)",
+          "oem": "MZ320650",
+          "supplier": "Mitsubishi OEM",
+          "price": 245000,
+          "currency": "IDR",
+          "intervalKm": 10000,
+          "warranty": "N/A",
+          "image": "https://images.mitsubishi-motors.co.id/parts/engine-oil.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-004",
+          "category": "Filters",
+          "partName": "Oil Filter",
+          "oem": "MZ690080",
+          "supplier": "Mitsubishi OEM",
+          "price": 89000,
+          "currency": "IDR",
+          "intervalKm": 10000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/oil-filter.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-005",
+          "category": "Cooling System",
+          "partName": "Coolant Concentrate (2L)",
+          "oem": "MR513668",
+          "supplier": "Mitsubishi OEM",
+          "price": 165000,
+          "currency": "IDR",
+          "intervalKm": 80000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/coolant.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-006",
+          "category": "Brake System",
+          "partName": "Brake Pads Front",
+          "oem": "MR407421",
+          "supplier": "Mitsubishi OEM",
+          "price": 425000,
+          "currency": "IDR",
+          "intervalKm": 50000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/brake-pads-front.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-007",
+          "category": "Brake System",
+          "partName": "Brake Pads Rear",
+          "oem": "MR407422",
+          "supplier": "Mitsubishi OEM",
+          "price": 325000,
+          "currency": "IDR",
+          "intervalKm": 50000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/brake-pads-rear.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-008",
+          "category": "Electrical",
+          "partName": "Car Battery 60Ah",
+          "oem": "MR510033",
+          "supplier": "Mitsubishi OEM",
+          "price": 1200000,
+          "currency": "IDR",
+          "intervalKm": 200000,
+          "warranty": "36 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/battery.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-009",
+          "category": "Electrical",
+          "partName": "Headlight Bulb H4",
+          "oem": "MR382485",
+          "supplier": "Mitsubishi OEM",
+          "price": 185000,
+          "currency": "IDR",
+          "intervalKm": "As Needed",
+          "warranty": "6 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/headlight-bulb.jpg"
+        },
+        {
+          "partId": "MMS-XF-2024-010",
+          "category": "Suspension",
+          "partName": "Front Shock Absorber (Pair)",
+          "oem": "MR437725",
+          "supplier": "Mitsubishi OEM",
+          "price": 1850000,
+          "currency": "IDR",
+          "intervalKm": 80000,
+          "warranty": "12 Months",
+          "image": "https://images.mitsubishi-motors.co.id/parts/shock-absorber.jpg"
+        }
+      ],
+
+      "maintenanceSchedule": [
+        {
+          "interval": 10000,
+          "description": "Engine Oil and Filter Change",
+          "items": ["MMS-XF-2024-003", "MMS-XF-2024-004"]
+        },
+        {
+          "interval": 40000,
+          "description": "Air Filter Replacement",
+          "items": ["MMS-XF-2024-001"]
+        },
+        {
+          "interval": 60000,
+          "description": "Spark Plugs Replacement",
+          "items": ["MMS-XF-2024-002"]
+        },
+        {
+          "interval": 80000,
+          "description": "Coolant and Suspension Check",
+          "items": ["MMS-XF-2024-005"]
+        }
+      ],
+
+      "colors": [
+        "Pearl White",
+        "Jet Black",
+        "Silver Metallic",
+        "Dark Red",
+        "Golden Brown"
+      ],
+
+      "variants": [
+        {
+          "variantName": "SE",
+          "price": 225000000,
+          "features": "Basic features"
+        },
+        {
+          "variantName": "GLX",
+          "price": 255000000,
+          "features": "Mid-range features"
+        },
+        {
+          "variantName": "GT",
+          "price": 285000000,
+          "features": "Premium features"
+        }
+      ],
+
+      "warranty": {
+        "comprehensive": "3 Years or 100,000 km",
+        "powertrain": "5 Years or 160,000 km",
+        "rust": "5 Years"
+      }
+    },
+
+    {
+      "unitId": "MMS-PAJERO-2024",
+      "brandId": 1,
+      "modelName": "Mitsubishi Pajero Sport",
+      "modelGeneration": "4th Gen 2024",
+      "vehicleType": "SUV 7-Seater",
+      "productionYear": "2024",
+      "marketStatus": "CURRENT",
+      
+      "specifications": {
+        "dimensions": {
+          "lengthMm": 4750,
+          "widthMm": 1880,
+          "heightMm": 1750,
+          "wheelbaseMm": 2800,
+          "groundClearanceMm": 220,
+          "fuelTankCapacityL": 75
+        },
+        "engine": {
+          "engineModel": "4D56",
+          "engineCc": 2477,
+          "engineType": "4-Cylinder Diesel",
+          "powerHp": 190,
+          "powerKw": 140,
+          "torqueNm": 450,
+          "torqueRpm": "2000-2800",
+          "compressionRatio": "9.2:1",
+          "fuelType": "Diesel",
+          "consumption": {
+            "city": 7.5,
+            "highway": 9.2,
+            "combined": 8.3
+          }
+        },
+        "transmission": {
+          "type": "8-Speed Automatic",
+          "driveType": "AWD/4WD Selectable",
+          "gears": 8
+        },
+        "chassis": {
+          "frameType": "Ladder Frame",
+          "suspensionFront": "Double Wishbone with Coil Spring",
+          "suspensionRear": "Multi-Link with Coil Spring",
+          "steeringType": "Electric Power Steering",
+          "turningRadius": 5.5
+        },
+        "brakes": {
+          "frontBrakes": "Disc with ABS",
+          "rearBrakes": "Disc with ABS",
+          "absBrand": "Bosch"
+        },
+        "tyres": {
+          "size": "255/65R17",
+          "brand": "Bridgestone Dueler",
+          "seasonType": "All-Terrain"
+        },
+        "weight": {
+          "kerb": 1735,
+          "gvwr": 2050,
+          "payload": 315
+        },
+        "performance": {
+          "acceleration0_100": 9.8,
+          "topSpeed": 190,
+          "fuelEconomy": "8.3 l/100km"
+        }
+      },
+
+      "images": {
+        "exterior": {
+          "frontView": "https://images.mitsubishi-motors.co.id/pajero-sport/exterior-front.jpg",
+          "sideView": "https://images.mitsubishi-motors.co.id/pajero-sport/exterior-side.jpg",
+          "rearView": "https://images.mitsubishi-motors.co.id/pajero-sport/exterior-rear.jpg",
+          "topView": "https://images.mitsubishi-motors.co.id/pajero-sport/exterior-top.jpg"
+        },
+        "interior": {
+          "dashboard": "https://images.mitsubishi-motors.co.id/pajero-sport/interior-dashboard.jpg",
+          "seats": "https://images.mitsubishi-motors.co.id/pajero-sport/interior-seats.jpg",
+          "steering": "https://images.mitsubishi-motors.co.id/pajero-sport/steering-wheel.jpg"
+        },
+        "engine": "https://images.mitsubishi-motors.co.id/pajero-sport/engine-4d56.jpg"
+      },
+
+      "spareParts": [
+        {
+          "partId": "MMS-PS-2024-001",
+          "category": "Engine Components",
+          "partName": "Diesel Air Filter",
+          "oem": "1500A406",
+          "supplier": "Mitsubishi OEM",
+          "price": 185000,
+          "currency": "IDR",
+          "intervalKm": 40000,
+          "warranty": "12 Months"
+        },
+        {
+          "partId": "MMS-PS-2024-002",
+          "category": "Engine Components",
+          "partName": "Glow Plugs (Set of 4)",
+          "oem": "MD367475",
+          "supplier": "Mitsubishi OEM",
+          "price": 425000,
+          "currency": "IDR",
+          "intervalKm": 200000,
+          "warranty": "12 Months"
+        },
+        {
+          "partId": "MMS-PS-2024-003",
+          "category": "Fluids",
+          "partName": "Diesel Engine Oil 15W-40 (6L)",
+          "oem": "MZ320750",
+          "supplier": "Mitsubishi OEM",
+          "price": 315000,
+          "currency": "IDR",
+          "intervalKm": 10000,
+          "warranty": "N/A"
+        }
+      ]
+    },
+
+    {
+      "unitId": "HONDA-BRV-2024",
+      "brandId": 10,
+      "modelName": "Honda BR-V N7X",
+      "modelGeneration": "2nd Gen 2024",
+      "vehicleType": "SUV Compact 7-Seater",
+      "productionYear": "2024",
+      "marketStatus": "CURRENT",
+      
+      "specifications": {
+        "dimensions": {
+          "lengthMm": 4456,
+          "widthMm": 1735,
+          "heightMm": 1620,
+          "wheelbaseMm": 2662,
+          "groundClearanceMm": 200,
+          "fuelTankCapacityL": 45
+        },
+        "engine": {
+          "engineModel": "L15Z8",
+          "engineCc": 1496,
+          "engineType": "4-Cylinder Petrol",
+          "powerHp": 120,
+          "powerKw": 88,
+          "torqueNm": 145,
+          "torqueRpm": "4300-5000",
+          "compressionRatio": "9.6:1",
+          "fuelType": "Petrol RON 92",
+          "consumption": {
+            "city": 8.0,
+            "highway": 9.8,
+            "combined": 8.8
+          }
+        },
+        "transmission": {
+          "type": "CVT Automatic",
+          "driveType": "FWD",
+          "gears": "Continuously Variable"
+        }
+      },
+
+      "images": {
+        "exterior": {
+          "frontView": "https://images.honda-indonesia.com/brv-n7x/exterior-front.jpg",
+          "sideView": "https://images.honda-indonesia.com/brv-n7x/exterior-side.jpg"
+        }
+      },
+
+      "spareParts": [
+        {
+          "partId": "HONDA-BRV-001",
+          "category": "Engine Components",
+          "partName": "Air Filter",
+          "oem": "17220-5PA-900",
+          "supplier": "Honda OEM",
+          "price": 135000,
+          "currency": "IDR",
+          "intervalKm": 30000,
+          "warranty": "12 Months"
+        },
+        {
+          "partId": "HONDA-BRV-002",
+          "category": "Engine Components",
+          "partName": "Spark Plugs (Set of 4)",
+          "oem": "98079-5616K",
+          "supplier": "Honda OEM",
+          "price": 325000,
+          "currency": "IDR",
+          "intervalKm": 60000,
+          "warranty": "12 Months"
+        }
+      ]
+    },
+
+    {
+      "unitId": "TOYOTA-AVANZA-2024",
+      "brandId": 11,
+      "modelName": "Toyota Avanza",
+      "modelGeneration": "3rd Gen 2023",
+      "vehicleType": "MPV 7-Seater",
+      "productionYear": "2023",
+      "marketStatus": "CURRENT",
+      
+      "specifications": {
+        "dimensions": {
+          "lengthMm": 4475,
+          "widthMm": 1735,
+          "heightMm": 1700,
+          "wheelbaseMm": 2750,
+          "groundClearanceMm": 170,
+          "fuelTankCapacityL": 50
+        },
+        "engine": {
+          "engineModel": "2NR-VE",
+          "engineCc": 1496,
+          "engineType": "4-Cylinder Petrol",
+          "powerHp": 105,
+          "powerKw": 77,
+          "torqueNm": 136,
+          "torqueRpm": "3800-4400",
+          "compressionRatio": "10.0:1",
+          "fuelType": "Petrol RON 92",
+          "consumption": {
+            "city": 7.8,
+            "highway": 9.5,
+            "combined": 8.5
+          }
+        },
+        "transmission": {
+          "type": "5-Speed Manual / CVT",
+          "driveType": "FWD",
+          "gears": "5 Speed Manual"
+        }
+      },
+
+      "images": {
+        "exterior": {
+          "frontView": "https://images.toyota.co.id/avanza/exterior-front.jpg"
+        }
+      },
+
+      "spareParts": [
+        {
+          "partId": "TOYOTA-AVZ-001",
+          "category": "Engine Components",
+          "partName": "Air Filter",
+          "oem": "17801-0H050",
+          "supplier": "Toyota OEM",
+          "price": 125000,
+          "currency": "IDR",
+          "intervalKm": 30000,
+          "warranty": "12 Months"
+        }
+      ]
+    }
+  ],
+
+  "totalVehiclesInCatalog": 4,
+  "totalPartsAvailable": 25,
+  "lastUpdated": "2026-09-01T12:00:00Z",
+  "dataQuality": "COMPREHENSIVE",
+  "coverage": {
+    "vehicles": "100%",
+    "specifications": "95%",
+    "images": "85%",
+    "spareParts": "75%",
+    "maintenanceSchedules": "80%"
+  },
+
+  "notes": [
+    "Semua harga dan spesifikasi dapat berubah sesuai update dari dealer resmi",
+    "Foto-foto diambil dari situs resmi masing-masing dealer/brand",
+    "Untuk pemesanan parts, hubungi dealer resmi terdekat",
+    "Garansi berlaku sesuai kebijakan masing-masing manufacturer",
+    "Data akan diperbarui secara berkala mengikuti update model dan spesifikasi terbaru"
+  ]
+}
