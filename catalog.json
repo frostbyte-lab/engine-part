@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0-illustrated-unit-registry",
+  "version": "0.8.0-public-specs-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
     {
@@ -1676,6 +1676,82 @@
       },
       "unitMedia": {
         "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
+      },
+      "hotspots": []
+    },
+    {
+      "id": 40,
+      "brandId": 12,
+      "categoryId": 2,
+      "modelName": "136 HDX 4x4",
+      "modelCode": "HINO-136-HDX-4X4",
+      "productionYear": "CURRENT",
+      "engineModel": "N04C-WY",
+      "description": "Unit HINO 300 Series dari halaman produk resmi Indonesia.",
+      "sourceUrl": "https://www.hino.co.id/product-detail/euro4/1/136-hdx-4x4",
+      "sourceName": "Hino Indonesia — produk 136 HDX 4x4",
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": "https://www.hino.co.id/product-detail/euro4/1/136-hdx-4x4",
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "market": "Indonesia",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "N04C-WY",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitMedia": {
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
+      },
+      "hotspots": []
+    },
+    {
+      "id": 41,
+      "brandId": 15,
+      "categoryId": 2,
+      "modelName": "New Carry Pick-Up",
+      "modelCode": "SUZUKI-NEW-CARRY-PICKUP",
+      "productionYear": "CURRENT",
+      "engineModel": "K15B-C",
+      "description": "Unit Suzuki Indonesia dengan spesifikasi resmi yang tampil pada halaman produk.",
+      "sourceUrl": "https://auto.suzuki.co.id/cars/new-carry",
+      "sourceName": "Suzuki Indonesia — New Carry Pick-Up",
+      "unitSpecs": {
+        "engineCc": 1462,
+        "powerHp": 97,
+        "torqueNm": 135,
+        "weightKg": null,
+        "sourceUrl": "https://auto.suzuki.co.id/cars/new-carry",
+        "verificationStatus": "VERIFIED"
+      },
+      "market": "Indonesia",
+      "verificationStatus": "VERIFIED",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "K15B-C",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitMedia": {
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
         "gallery": [],
         "assetType": "generated_fallback_illustration",
         "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
