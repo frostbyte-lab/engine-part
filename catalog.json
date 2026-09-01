@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0-vehicle-multibrand-registry",
+  "version": "0.6.0-storefront-ready-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
     {
@@ -8,7 +8,9 @@
       "country": "Indonesia",
       "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.",
       "source": "https://www.mitsubishi-motors.co.id/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 2,
@@ -16,7 +18,9 @@
       "country": "Indonesia",
       "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.",
       "source": "https://www.mitsubishi-fuso.com/en/parts-services/parts-accessories/genuine-parts/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 3,
@@ -24,7 +28,9 @@
       "country": "Global / Indonesia",
       "description": "Cat parts flow berbasis equipment, part number, serial number, dan store; detail fitment perlu verifikasi resmi.",
       "source": "https://parts.cat.com/en/catcorp",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 4,
@@ -32,7 +38,9 @@
       "country": "Global / Indonesia",
       "description": "SANY service dan parts registry; model dan nomor part perlu identitas mesin serta kanal resmi.",
       "source": "https://www.sanyglobal.com/product/parts/parts/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 5,
@@ -40,7 +48,9 @@
       "country": "Global / Indonesia",
       "description": "John Deere construction/forestry equipment dan parts; fitment detail memerlukan dealer atau portal resmi.",
       "source": "https://www.deere.com/en-us/products-and-solutions/construction-equipment",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 6,
@@ -48,7 +58,9 @@
       "country": "Indonesia / Global",
       "description": "Komatsu equipment dan genuine parts; katalog detail memerlukan model, serial, atau kanal dealer.",
       "source": "https://www.komatsu.co.id/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 7,
@@ -56,7 +68,9 @@
       "country": "Asia / Indonesia",
       "description": "Volvo Construction Equipment genuine parts dan product registry; kecocokan wajib diverifikasi per machine ID.",
       "source": "https://www.volvoce.com/asia/en-as/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 8,
@@ -64,7 +78,9 @@
       "country": "Indonesia / Global",
       "description": "Hitachi Construction Machinery Indonesia berada dalam jaringan global; parts genuine perlu verifikasi resmi.",
       "source": "https://www.hitachicm.com/global/en/global-network/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 9,
@@ -72,7 +88,9 @@
       "country": "Global / Indonesia",
       "description": "Registry brand alat berat tambahan; model dan nomor part menunggu sumber lokal/OEM tervalidasi.",
       "source": "https://www.develon.com/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 10,
@@ -80,7 +98,9 @@
       "country": "Indonesia",
       "description": "Registry model dan kanal e-Catalogue/parts Honda Indonesia.",
       "source": "https://www.honda-indonesia.com/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 11,
@@ -88,7 +108,9 @@
       "country": "Indonesia",
       "description": "Registry model dan Toyota Genuine Parts Indonesia.",
       "source": "https://aftersales.toyota.astra.co.id/products",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 12,
@@ -96,7 +118,9 @@
       "country": "Indonesia",
       "description": "Registry Hino Indonesia dan kanal Hino Genuine Parts.",
       "source": "https://hino-motors.com/service/sukucadang_en.html",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 13,
@@ -104,7 +128,9 @@
       "country": "Indonesia",
       "description": "Registry lineup dan layanan Mazda Indonesia.",
       "source": "https://www.mazda.co.id/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 14,
@@ -112,7 +138,9 @@
       "country": "Indonesia",
       "description": "Registry kendaraan dan jalur genuine parts Isuzu; detail lokal perlu verifikasi.",
       "source": "https://www.isuzu-intl.com/parts/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 15,
@@ -120,7 +148,9 @@
       "country": "Indonesia",
       "description": "Registry kendaraan dan e-parts Suzuki Indonesia.",
       "source": "https://www.suzuki.co.id/eparts",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 16,
@@ -128,7 +158,9 @@
       "country": "Indonesia",
       "description": "Registry kendaraan Nissan Indonesia; detail parts perlu verifikasi.",
       "source": "https://www.nissan.co.id/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     },
     {
       "id": 17,
@@ -136,7 +168,9 @@
       "country": "Indonesia",
       "description": "Registry kendaraan Daihatsu Indonesia; detail parts perlu verifikasi.",
       "source": "https://daihatsu.co.id/",
-      "logo": null
+      "logo": null,
+      "verificationStatus": "PENDING_REVIEW",
+      "market": "Indonesia"
     }
   ],
   "categories": [
@@ -174,7 +208,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 2,
@@ -184,7 +244,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 3,
@@ -194,7 +280,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 4,
@@ -204,7 +316,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 5,
@@ -214,7 +352,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 6,
@@ -224,7 +388,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 7,
@@ -234,7 +424,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": "Electric",
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "Electric",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 8,
@@ -244,7 +460,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+      "description": "Lineup resmi Mitsubishi Motors Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-motors.co.id/",
+      "sourceName": "Situs resmi Mitsubishi Motors / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 9,
@@ -254,7 +496,33 @@
       "modelCode": "FITMENT-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis."
+      "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mitsubishi-fuso.com/en/parts-services/parts-accessories/genuine-parts/",
+      "sourceName": "Situs resmi Mitsubishi Fuso / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 10,
@@ -264,7 +532,33 @@
       "modelCode": "SERIAL-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model/serial number diperlukan untuk menentukan parts yang tepat."
+      "description": "Model/serial number diperlukan untuk menentukan parts yang tepat.",
+      "market": "Indonesia",
+      "sourceUrl": "https://parts.cat.com/en/catcorp",
+      "sourceName": "Situs resmi Caterpillar / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 11,
@@ -274,7 +568,33 @@
       "modelCode": "MACHINE-ID-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model mesin dan kanal service diperlukan untuk fitment."
+      "description": "Model mesin dan kanal service diperlukan untuk fitment.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.sanyglobal.com/product/parts/parts/",
+      "sourceName": "Situs resmi SANY / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 12,
@@ -284,7 +604,33 @@
       "modelCode": "SERIAL-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Equipment model dan serial diperlukan untuk parts lookup."
+      "description": "Equipment model dan serial diperlukan untuk parts lookup.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.deere.com/en-us/products-and-solutions/construction-equipment",
+      "sourceName": "Situs resmi John Deere / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 13,
@@ -294,7 +640,33 @@
       "modelCode": "SERIAL-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model dan serial diperlukan untuk genuine parts lookup."
+      "description": "Model dan serial diperlukan untuk genuine parts lookup.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.komatsu.co.id/",
+      "sourceName": "Situs resmi Komatsu / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 14,
@@ -304,7 +676,33 @@
       "modelCode": "MACHINE-ID-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Machine identity diperlukan untuk fitment parts."
+      "description": "Machine identity diperlukan untuk fitment parts.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.volvoce.com/asia/en-as/",
+      "sourceName": "Situs resmi Volvo CE / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 15,
@@ -314,7 +712,33 @@
       "modelCode": "SERIAL-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model dan serial diperlukan untuk parts lookup."
+      "description": "Model dan serial diperlukan untuk parts lookup.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.hitachicm.com/global/en/global-network/",
+      "sourceName": "Situs resmi Hitachi Construction Machinery / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 16,
@@ -324,7 +748,33 @@
       "modelCode": "SERIAL-REQUIRED",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model dan serial diperlukan untuk parts lookup."
+      "description": "Model dan serial diperlukan untuk parts lookup.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.develon.com/",
+      "sourceName": "Situs resmi Develon / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 17,
@@ -334,7 +784,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Honda Indonesia."
+      "description": "Model tercantum pada situs resmi Honda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.honda-indonesia.com/",
+      "sourceName": "Situs resmi Honda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 18,
@@ -344,7 +820,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Honda Indonesia."
+      "description": "Model tercantum pada situs resmi Honda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.honda-indonesia.com/",
+      "sourceName": "Situs resmi Honda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 19,
@@ -354,7 +856,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Honda Indonesia."
+      "description": "Model tercantum pada situs resmi Honda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.honda-indonesia.com/",
+      "sourceName": "Situs resmi Honda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 20,
@@ -364,7 +892,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://aftersales.toyota.astra.co.id/products",
+      "sourceName": "Situs resmi Toyota / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 21,
@@ -374,7 +928,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://aftersales.toyota.astra.co.id/products",
+      "sourceName": "Situs resmi Toyota / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 22,
@@ -384,7 +964,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://aftersales.toyota.astra.co.id/products",
+      "sourceName": "Situs resmi Toyota / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 23,
@@ -394,7 +1000,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://aftersales.toyota.astra.co.id/products",
+      "sourceName": "Situs resmi Toyota / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 24,
@@ -404,7 +1036,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Model tercakup pada informasi produk parts Toyota Indonesia; trim dan tahun perlu verifikasi."
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia; trim dan tahun perlu verifikasi.",
+      "market": "Indonesia",
+      "sourceUrl": "https://aftersales.toyota.astra.co.id/products",
+      "sourceName": "Situs resmi Toyota / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 25,
@@ -414,7 +1072,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://hino-motors.com/service/sukucadang_en.html",
+      "sourceName": "Situs resmi Hino / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 26,
@@ -424,7 +1108,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://hino-motors.com/service/sukucadang_en.html",
+      "sourceName": "Situs resmi Hino / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 27,
@@ -434,7 +1144,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://hino-motors.com/service/sukucadang_en.html",
+      "sourceName": "Situs resmi Hino / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 28,
@@ -444,7 +1180,33 @@
       "modelCode": "INDONESIA-REGISTRY",
       "productionYear": "2015—NOW",
       "engineModel": null,
-      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://hino-motors.com/service/sukucadang_en.html",
+      "sourceName": "Situs resmi Hino / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "2015—NOW",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 29,
@@ -454,7 +1216,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 30,
@@ -464,7 +1252,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 31,
@@ -474,7 +1288,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 32,
@@ -484,7 +1324,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 33,
@@ -494,7 +1360,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 34,
@@ -504,7 +1396,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": "Plug-in Hybrid",
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "Plug-in Hybrid",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 35,
@@ -514,7 +1432,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": "Battery Electric",
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "Battery Electric",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 36,
@@ -524,7 +1468,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 37,
@@ -534,7 +1504,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 38,
@@ -544,7 +1540,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": null,
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": null,
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     },
     {
       "id": 39,
@@ -554,7 +1576,33 @@
       "modelCode": "CURRENT-ID",
       "productionYear": "CURRENT",
       "engineModel": "All-Electric",
-      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+      "description": "Model tercantum pada situs resmi Mazda Indonesia.",
+      "market": "Indonesia",
+      "sourceUrl": "https://www.mazda.co.id/",
+      "sourceName": "Situs resmi Mazda / kanal parts",
+      "verificationStatus": "PENDING_REVIEW",
+      "fitment": {
+        "market": "Indonesia",
+        "productionYear": "CURRENT",
+        "engineCode": "All-Electric",
+        "vinFrom": null,
+        "vinTo": null,
+        "serialFrom": null,
+        "serialTo": null
+      },
+      "unitSpecs": {
+        "engineCc": null,
+        "powerHp": null,
+        "torqueNm": null,
+        "weightKg": null,
+        "sourceUrl": null,
+        "verificationStatus": "PENDING_REVIEW"
+      },
+      "unitMedia": {
+        "image": null,
+        "gallery": []
+      },
+      "hotspots": []
     }
   ],
   "units": [],
