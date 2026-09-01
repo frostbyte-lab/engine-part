@@ -1,47 +1,584 @@
 {
-  "version": "0.4.0-multibrand-registry",
+  "version": "0.5.0-vehicle-multibrand-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
-    { "id": 1, "name": "Mitsubishi Motors", "country": "Indonesia", "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.", "source": "https://www.mitsubishi-motors.co.id/", "logo": null },
-    { "id": 2, "name": "Mitsubishi Fuso", "country": "Indonesia", "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.", "source": "https://www.mitsubishi-fuso.com/en/parts-services/parts-accessories/genuine-parts/", "logo": null },
-    { "id": 3, "name": "Caterpillar", "country": "Global / Indonesia", "description": "Cat parts flow berbasis equipment, part number, serial number, dan store; detail fitment perlu verifikasi resmi.", "source": "https://parts.cat.com/en/catcorp", "logo": null },
-    { "id": 4, "name": "SANY", "country": "Global / Indonesia", "description": "SANY service dan parts registry; model dan nomor part perlu identitas mesin serta kanal resmi.", "source": "https://www.sanyglobal.com/product/parts/parts/", "logo": null },
-    { "id": 5, "name": "John Deere", "country": "Global / Indonesia", "description": "John Deere construction/forestry equipment dan parts; fitment detail memerlukan dealer atau portal resmi.", "source": "https://www.deere.com/en-us/products-and-solutions/construction-equipment", "logo": null },
-    { "id": 6, "name": "Komatsu", "country": "Indonesia / Global", "description": "Komatsu equipment dan genuine parts; katalog detail memerlukan model, serial, atau kanal dealer.", "source": "https://www.komatsu.co.id/", "logo": null },
-    { "id": 7, "name": "Volvo CE", "country": "Asia / Indonesia", "description": "Volvo Construction Equipment genuine parts dan product registry; kecocokan wajib diverifikasi per machine ID.", "source": "https://www.volvoce.com/asia/en-as/", "logo": null },
-    { "id": 8, "name": "Hitachi Construction Machinery", "country": "Indonesia / Global", "description": "Hitachi Construction Machinery Indonesia berada dalam jaringan global; parts genuine perlu verifikasi resmi.", "source": "https://www.hitachicm.com/global/en/global-network/", "logo": null },
-    { "id": 9, "name": "Develon", "country": "Global / Indonesia", "description": "Registry brand alat berat tambahan; model dan nomor part menunggu sumber lokal/OEM tervalidasi.", "source": "https://www.develon.com/", "logo": null }
+    {
+      "id": 1,
+      "name": "Mitsubishi Motors",
+      "country": "Indonesia",
+      "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.",
+      "source": "https://www.mitsubishi-motors.co.id/",
+      "logo": null
+    },
+    {
+      "id": 2,
+      "name": "Mitsubishi Fuso",
+      "country": "Indonesia",
+      "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.",
+      "source": "https://www.mitsubishi-fuso.com/en/parts-services/parts-accessories/genuine-parts/",
+      "logo": null
+    },
+    {
+      "id": 3,
+      "name": "Caterpillar",
+      "country": "Global / Indonesia",
+      "description": "Cat parts flow berbasis equipment, part number, serial number, dan store; detail fitment perlu verifikasi resmi.",
+      "source": "https://parts.cat.com/en/catcorp",
+      "logo": null
+    },
+    {
+      "id": 4,
+      "name": "SANY",
+      "country": "Global / Indonesia",
+      "description": "SANY service dan parts registry; model dan nomor part perlu identitas mesin serta kanal resmi.",
+      "source": "https://www.sanyglobal.com/product/parts/parts/",
+      "logo": null
+    },
+    {
+      "id": 5,
+      "name": "John Deere",
+      "country": "Global / Indonesia",
+      "description": "John Deere construction/forestry equipment dan parts; fitment detail memerlukan dealer atau portal resmi.",
+      "source": "https://www.deere.com/en-us/products-and-solutions/construction-equipment",
+      "logo": null
+    },
+    {
+      "id": 6,
+      "name": "Komatsu",
+      "country": "Indonesia / Global",
+      "description": "Komatsu equipment dan genuine parts; katalog detail memerlukan model, serial, atau kanal dealer.",
+      "source": "https://www.komatsu.co.id/",
+      "logo": null
+    },
+    {
+      "id": 7,
+      "name": "Volvo CE",
+      "country": "Asia / Indonesia",
+      "description": "Volvo Construction Equipment genuine parts dan product registry; kecocokan wajib diverifikasi per machine ID.",
+      "source": "https://www.volvoce.com/asia/en-as/",
+      "logo": null
+    },
+    {
+      "id": 8,
+      "name": "Hitachi Construction Machinery",
+      "country": "Indonesia / Global",
+      "description": "Hitachi Construction Machinery Indonesia berada dalam jaringan global; parts genuine perlu verifikasi resmi.",
+      "source": "https://www.hitachicm.com/global/en/global-network/",
+      "logo": null
+    },
+    {
+      "id": 9,
+      "name": "Develon",
+      "country": "Global / Indonesia",
+      "description": "Registry brand alat berat tambahan; model dan nomor part menunggu sumber lokal/OEM tervalidasi.",
+      "source": "https://www.develon.com/",
+      "logo": null
+    },
+    {
+      "id": 10,
+      "name": "Honda",
+      "country": "Indonesia",
+      "description": "Registry model dan kanal e-Catalogue/parts Honda Indonesia.",
+      "source": "https://www.honda-indonesia.com/",
+      "logo": null
+    },
+    {
+      "id": 11,
+      "name": "Toyota",
+      "country": "Indonesia",
+      "description": "Registry model dan Toyota Genuine Parts Indonesia.",
+      "source": "https://aftersales.toyota.astra.co.id/products",
+      "logo": null
+    },
+    {
+      "id": 12,
+      "name": "Hino",
+      "country": "Indonesia",
+      "description": "Registry Hino Indonesia dan kanal Hino Genuine Parts.",
+      "source": "https://hino-motors.com/service/sukucadang_en.html",
+      "logo": null
+    },
+    {
+      "id": 13,
+      "name": "Mazda",
+      "country": "Indonesia",
+      "description": "Registry lineup dan layanan Mazda Indonesia.",
+      "source": "https://www.mazda.co.id/",
+      "logo": null
+    },
+    {
+      "id": 14,
+      "name": "Isuzu",
+      "country": "Indonesia",
+      "description": "Registry kendaraan dan jalur genuine parts Isuzu; detail lokal perlu verifikasi.",
+      "source": "https://www.isuzu-intl.com/parts/",
+      "logo": null
+    },
+    {
+      "id": 15,
+      "name": "Suzuki",
+      "country": "Indonesia",
+      "description": "Registry kendaraan dan e-parts Suzuki Indonesia.",
+      "source": "https://www.suzuki.co.id/eparts",
+      "logo": null
+    },
+    {
+      "id": 16,
+      "name": "Nissan",
+      "country": "Indonesia",
+      "description": "Registry kendaraan Nissan Indonesia; detail parts perlu verifikasi.",
+      "source": "https://www.nissan.co.id/",
+      "logo": null
+    },
+    {
+      "id": 17,
+      "name": "Daihatsu",
+      "country": "Indonesia",
+      "description": "Registry kendaraan Daihatsu Indonesia; detail parts perlu verifikasi.",
+      "source": "https://daihatsu.co.id/",
+      "logo": null
+    }
   ],
   "categories": [
-    { "id": 1, "name": "Passenger Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup saat ini; tahun produksi dan fitment part perlu diverifikasi per VIN." },
-    { "id": 2, "name": "Commercial Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup kendaraan niaga; nomor part perlu model, engine code, chassis, dan market." },
-    { "id": 3, "name": "Truck & Bus", "group": "Mitsubishi Fuso Indonesia", "description": "FUSO genuine parts; gunakan dealer resmi untuk kecocokan dan nomor part." },
-    { "id": 4, "name": "Heavy Equipment", "group": "Multi-brand", "description": "Registry alat berat; nomor part dan fitment harus terhubung ke model/serial resmi." }
+    {
+      "id": 1,
+      "name": "Passenger Vehicle",
+      "group": "Mitsubishi Motors Indonesia",
+      "description": "Lineup saat ini; tahun produksi dan fitment part perlu diverifikasi per VIN."
+    },
+    {
+      "id": 2,
+      "name": "Commercial Vehicle",
+      "group": "Mitsubishi Motors Indonesia",
+      "description": "Lineup kendaraan niaga; nomor part perlu model, engine code, chassis, dan market."
+    },
+    {
+      "id": 3,
+      "name": "Truck & Bus",
+      "group": "Mitsubishi Fuso Indonesia",
+      "description": "FUSO genuine parts; gunakan dealer resmi untuk kecocokan dan nomor part."
+    },
+    {
+      "id": 4,
+      "name": "Heavy Equipment",
+      "group": "Multi-brand",
+      "description": "Registry alat berat; nomor part dan fitment harus terhubung ke model/serial resmi."
+    }
   ],
   "models": [
-    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "New Xforce", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 2, "brandId": 1, "categoryId": 1, "modelName": "Destinator", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 3, "brandId": 1, "categoryId": 1, "modelName": "Pajero Sport", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 4, "brandId": 1, "categoryId": 1, "modelName": "Xpander Cross", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 5, "brandId": 1, "categoryId": 1, "modelName": "Xpander", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 6, "brandId": 1, "categoryId": 2, "modelName": "Triton", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 7, "brandId": 1, "categoryId": 2, "modelName": "L100 EV", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": "Electric", "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 8, "brandId": 1, "categoryId": 2, "modelName": "L300", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 9, "brandId": 2, "categoryId": 3, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis." },
-    { "id": 10, "brandId": 3, "categoryId": 4, "modelName": "Cat Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model/serial number diperlukan untuk menentukan parts yang tepat." },
-    { "id": 11, "brandId": 4, "categoryId": 4, "modelName": "SANY Equipment Registry", "modelCode": "MACHINE-ID-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model mesin dan kanal service diperlukan untuk fitment." },
-    { "id": 12, "brandId": 5, "categoryId": 4, "modelName": "John Deere Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Equipment model dan serial diperlukan untuk parts lookup." },
-    { "id": 13, "brandId": 6, "categoryId": 4, "modelName": "Komatsu Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk genuine parts lookup." },
-    { "id": 14, "brandId": 7, "categoryId": 4, "modelName": "Volvo CE Equipment Registry", "modelCode": "MACHINE-ID-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Machine identity diperlukan untuk fitment parts." },
-    { "id": 15, "brandId": 8, "categoryId": 4, "modelName": "Hitachi Construction Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk parts lookup." },
-    { "id": 16, "brandId": 9, "categoryId": 4, "modelName": "Develon Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk parts lookup." }
+    {
+      "id": 1,
+      "brandId": 1,
+      "categoryId": 1,
+      "modelName": "New Xforce",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 2,
+      "brandId": 1,
+      "categoryId": 1,
+      "modelName": "Destinator",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 3,
+      "brandId": 1,
+      "categoryId": 1,
+      "modelName": "Pajero Sport",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 4,
+      "brandId": 1,
+      "categoryId": 1,
+      "modelName": "Xpander Cross",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 5,
+      "brandId": 1,
+      "categoryId": 1,
+      "modelName": "Xpander",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 6,
+      "brandId": 1,
+      "categoryId": 2,
+      "modelName": "Triton",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 7,
+      "brandId": 1,
+      "categoryId": 2,
+      "modelName": "L100 EV",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": "Electric",
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 8,
+      "brandId": 1,
+      "categoryId": 2,
+      "modelName": "L300",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Lineup resmi Mitsubishi Motors Indonesia."
+    },
+    {
+      "id": 9,
+      "brandId": 2,
+      "categoryId": 3,
+      "modelName": "FUSO Trucks & Buses",
+      "modelCode": "FITMENT-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis."
+    },
+    {
+      "id": 10,
+      "brandId": 3,
+      "categoryId": 4,
+      "modelName": "Cat Equipment Registry",
+      "modelCode": "SERIAL-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model/serial number diperlukan untuk menentukan parts yang tepat."
+    },
+    {
+      "id": 11,
+      "brandId": 4,
+      "categoryId": 4,
+      "modelName": "SANY Equipment Registry",
+      "modelCode": "MACHINE-ID-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model mesin dan kanal service diperlukan untuk fitment."
+    },
+    {
+      "id": 12,
+      "brandId": 5,
+      "categoryId": 4,
+      "modelName": "John Deere Equipment Registry",
+      "modelCode": "SERIAL-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Equipment model dan serial diperlukan untuk parts lookup."
+    },
+    {
+      "id": 13,
+      "brandId": 6,
+      "categoryId": 4,
+      "modelName": "Komatsu Equipment Registry",
+      "modelCode": "SERIAL-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model dan serial diperlukan untuk genuine parts lookup."
+    },
+    {
+      "id": 14,
+      "brandId": 7,
+      "categoryId": 4,
+      "modelName": "Volvo CE Equipment Registry",
+      "modelCode": "MACHINE-ID-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Machine identity diperlukan untuk fitment parts."
+    },
+    {
+      "id": 15,
+      "brandId": 8,
+      "categoryId": 4,
+      "modelName": "Hitachi Construction Equipment Registry",
+      "modelCode": "SERIAL-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model dan serial diperlukan untuk parts lookup."
+    },
+    {
+      "id": 16,
+      "brandId": 9,
+      "categoryId": 4,
+      "modelName": "Develon Equipment Registry",
+      "modelCode": "SERIAL-REQUIRED",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model dan serial diperlukan untuk parts lookup."
+    },
+    {
+      "id": 17,
+      "brandId": 10,
+      "categoryId": 1,
+      "modelName": "BR-V N7X",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Honda Indonesia."
+    },
+    {
+      "id": 18,
+      "brandId": 10,
+      "categoryId": 1,
+      "modelName": "WR-V",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Honda Indonesia."
+    },
+    {
+      "id": 19,
+      "brandId": 10,
+      "categoryId": 1,
+      "modelName": "Brio",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Honda Indonesia."
+    },
+    {
+      "id": 20,
+      "brandId": 11,
+      "categoryId": 1,
+      "modelName": "Avanza",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+    },
+    {
+      "id": 21,
+      "brandId": 11,
+      "categoryId": 1,
+      "modelName": "Rush",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+    },
+    {
+      "id": 22,
+      "brandId": 11,
+      "categoryId": 1,
+      "modelName": "Agya",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+    },
+    {
+      "id": 23,
+      "brandId": 11,
+      "categoryId": 1,
+      "modelName": "Calya",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia."
+    },
+    {
+      "id": 24,
+      "brandId": 11,
+      "categoryId": 1,
+      "modelName": "Kijang / Innova",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Model tercakup pada informasi produk parts Toyota Indonesia; trim dan tahun perlu verifikasi."
+    },
+    {
+      "id": 25,
+      "brandId": 12,
+      "categoryId": 2,
+      "modelName": "HINO 300 Series",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+    },
+    {
+      "id": 26,
+      "brandId": 12,
+      "categoryId": 2,
+      "modelName": "HINO 500 Series",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+    },
+    {
+      "id": 27,
+      "brandId": 12,
+      "categoryId": 2,
+      "modelName": "HINO 700 Series",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+    },
+    {
+      "id": 28,
+      "brandId": 12,
+      "categoryId": 2,
+      "modelName": "HINO Bus Series",
+      "modelCode": "INDONESIA-REGISTRY",
+      "productionYear": "2015—NOW",
+      "engineModel": null,
+      "description": "Series tercantum pada halaman spare parts resmi Hino Indonesia."
+    },
+    {
+      "id": 29,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-3",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 30,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-30",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 31,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-5",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 32,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-8",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 33,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-60",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 34,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "CX-80 PHEV",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": "Plug-in Hybrid",
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 35,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "MX-30 BEV",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": "Battery Electric",
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 36,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "Mazda2",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 37,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "Mazda3",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 38,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "MX-5 RF",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": null,
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    },
+    {
+      "id": 39,
+      "brandId": 13,
+      "categoryId": 1,
+      "modelName": "Mazda6e",
+      "modelCode": "CURRENT-ID",
+      "productionYear": "CURRENT",
+      "engineModel": "All-Electric",
+      "description": "Model tercantum pada situs resmi Mazda Indonesia."
+    }
   ],
   "units": [],
   "systems": [
-    { "id": 1, "name": "Engine", "description": "Engine system; component dan part number harus berasal dari sumber OEM/dealer." },
-    { "id": 2, "name": "Hydraulics", "description": "Hydraulic system; fitment bergantung pada machine model dan serial." },
-    { "id": 3, "name": "Undercarriage", "description": "Undercarriage; verifikasi machine family dan serial diperlukan." },
-    { "id": 4, "name": "Vehicle Registry", "description": "Registry metadata model multi-brand Indonesia." }
+    {
+      "id": 1,
+      "name": "Engine",
+      "description": "Engine system; component dan part number harus berasal dari sumber OEM/dealer."
+    },
+    {
+      "id": 2,
+      "name": "Hydraulics",
+      "description": "Hydraulic system; fitment bergantung pada machine model dan serial."
+    },
+    {
+      "id": 3,
+      "name": "Undercarriage",
+      "description": "Undercarriage; verifikasi machine family dan serial diperlukan."
+    },
+    {
+      "id": 4,
+      "name": "Vehicle Registry",
+      "description": "Registry metadata model multi-brand Indonesia."
+    }
   ],
   "components": [],
   "spareparts": [],
