@@ -1,31 +1,32 @@
 {
-  "version": "1.0.0",
+  "version": "0.2.0-mitsubishi-metadata",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
-    { "id": 1, "name": "Contoh Brand", "country": "Indonesia", "description": "Brand contoh", "logo": null }
+    { "id": 1, "name": "Mitsubishi Motors", "country": "Japan", "description": "Metadata model dari sumber publik resmi Mitsubishi Motors North America.", "logo": null },
+    { "id": 2, "name": "Mitsubishi Fuso", "country": "Japan", "description": "Genuine parts line for FUSO trucks and buses; part fitment requires dealer/chassis verification.", "logo": null }
   ],
   "categories": [
-    { "id": 1, "name": "Alat Berat", "group": "Alat Berat", "description": null }
+    { "id": 1, "name": "Passenger Vehicle", "group": "Mitsubishi Motors", "description": "Model-year metadata; market and VIN may change fitment." },
+    { "id": 2, "name": "Truck & Bus", "group": "Mitsubishi Fuso", "description": "FUSO fitment requires model, chassis and market verification." }
   ],
   "models": [
-    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "Model Contoh", "modelCode": "MODEL-001", "productionYear": "2020-2025", "engineModel": "Engine Contoh", "description": null }
+    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "Outlander", "modelCode": "2015", "productionYear": "2015", "engineModel": "2.4L MIVEC / 3.0L V6", "description": "2015 Outlander press-kit metadata." },
+    { "id": 2, "brandId": 1, "categoryId": 1, "modelName": "Mirage", "modelCode": "2015", "productionYear": "2015", "engineModel": null, "description": "2015 model-year newsroom reference." },
+    { "id": 3, "brandId": 1, "categoryId": 1, "modelName": "Lancer", "modelCode": "2015", "productionYear": "2015", "engineModel": "2.0L DOHC MIVEC", "description": "2015 model-year press-kit metadata." },
+    { "id": 4, "brandId": 1, "categoryId": 1, "modelName": "Outlander", "modelCode": "2026", "productionYear": "2026", "engineModel": null, "description": "Current official lineup reference." },
+    { "id": 5, "brandId": 1, "categoryId": 1, "modelName": "Outlander PHEV", "modelCode": "2026", "productionYear": "2026", "engineModel": "Plug-in Hybrid", "description": "Current official lineup reference." },
+    { "id": 6, "brandId": 1, "categoryId": 1, "modelName": "Eclipse Cross", "modelCode": "2026", "productionYear": "2026", "engineModel": null, "description": "Current official lineup reference." },
+    { "id": 7, "brandId": 1, "categoryId": 1, "modelName": "Outlander Sport", "modelCode": "2027", "productionYear": "2027", "engineModel": null, "description": "Current official lineup reference." },
+    { "id": 8, "brandId": 2, "categoryId": 2, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Public source directs genuine-parts fitment to local dealer verification." }
   ],
   "units": [],
   "systems": [
-    { "id": 1, "name": "Engine", "description": "Sistem mesin" }
+    { "id": 1, "name": "Engine", "description": "Engine system metadata; component and part records require a licensed source." }
   ],
-  "components": [
-    { "id": 1, "systemId": 1, "name": "Filter Oli", "componentCode": "ENG-FLT", "description": null, "diagram": null }
-  ],
-  "spareparts": [
-    { "id": 1, "componentId": 1, "name": "Filter Oli Contoh", "partNumber": "OF-001", "alternatePartNumber": null, "description": "Sparepart contoh", "function": "Menyaring oli", "specification": null, "unitOfMeasure": "pcs", "manufacturer": "Contoh Manufacturer", "image": null, "installationNotes": null, "status": "VERIFIED", "sourceName": "Katalog internal", "sourceUrl": null }
-  ],
-  "partNumbers": [
-    { "id": 1, "sparepartId": 1, "type": "OEM", "number": "OF-001" }
-  ],
+  "components": [],
+  "spareparts": [],
+  "partNumbers": [],
   "crossReferences": [],
-  "compatibilities": [
-    { "id": 1, "sparepartId": 1, "modelId": 1, "systemId": 1, "componentId": 1, "serialFrom": null, "serialTo": null, "notes": null }
-  ],
+  "compatibilities": [],
   "images": []
 }
