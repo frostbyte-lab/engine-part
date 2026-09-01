@@ -1,27 +1,30 @@
 {
-  "version": "0.2.0-mitsubishi-metadata",
+  "version": "0.3.0-mitsubishi-indonesia-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
-    { "id": 1, "name": "Mitsubishi Motors", "country": "Japan", "description": "Metadata model dari sumber publik resmi Mitsubishi Motors North America.", "logo": null },
-    { "id": 2, "name": "Mitsubishi Fuso", "country": "Japan", "description": "Genuine parts line for FUSO trucks and buses; part fitment requires dealer/chassis verification.", "logo": null }
+    { "id": 1, "name": "Mitsubishi Motors", "country": "Indonesia", "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.", "logo": null },
+    { "id": 2, "name": "Mitsubishi Fuso", "country": "Indonesia", "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.", "logo": null }
   ],
   "categories": [
-    { "id": 1, "name": "Passenger Vehicle", "group": "Mitsubishi Motors", "description": "Model-year metadata; market and VIN may change fitment." },
-    { "id": 2, "name": "Truck & Bus", "group": "Mitsubishi Fuso", "description": "FUSO fitment requires model, chassis and market verification." }
+    { "id": 1, "name": "Passenger Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup saat ini; tahun produksi dan fitment part perlu diverifikasi per VIN." },
+    { "id": 2, "name": "Commercial Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup kendaraan niaga; nomor part perlu model, engine code, chassis, dan market." },
+    { "id": 3, "name": "Truck & Bus", "group": "Mitsubishi Fuso Indonesia", "description": "FUSO genuine parts; gunakan dealer resmi untuk kecocokan dan nomor part." }
   ],
   "models": [
-    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "Outlander", "modelCode": "2015", "productionYear": "2015", "engineModel": "2.4L MIVEC / 3.0L V6", "description": "2015 Outlander press-kit metadata." },
-    { "id": 2, "brandId": 1, "categoryId": 1, "modelName": "Mirage", "modelCode": "2015", "productionYear": "2015", "engineModel": null, "description": "2015 model-year newsroom reference." },
-    { "id": 3, "brandId": 1, "categoryId": 1, "modelName": "Lancer", "modelCode": "2015", "productionYear": "2015", "engineModel": "2.0L DOHC MIVEC", "description": "2015 model-year press-kit metadata." },
-    { "id": 4, "brandId": 1, "categoryId": 1, "modelName": "Outlander", "modelCode": "2026", "productionYear": "2026", "engineModel": null, "description": "Current official lineup reference." },
-    { "id": 5, "brandId": 1, "categoryId": 1, "modelName": "Outlander PHEV", "modelCode": "2026", "productionYear": "2026", "engineModel": "Plug-in Hybrid", "description": "Current official lineup reference." },
-    { "id": 6, "brandId": 1, "categoryId": 1, "modelName": "Eclipse Cross", "modelCode": "2026", "productionYear": "2026", "engineModel": null, "description": "Current official lineup reference." },
-    { "id": 7, "brandId": 1, "categoryId": 1, "modelName": "Outlander Sport", "modelCode": "2027", "productionYear": "2027", "engineModel": null, "description": "Current official lineup reference." },
-    { "id": 8, "brandId": 2, "categoryId": 2, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Public source directs genuine-parts fitment to local dealer verification." }
+    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "New Xforce", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 2, "brandId": 1, "categoryId": 1, "modelName": "Destinator", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 3, "brandId": 1, "categoryId": 1, "modelName": "Pajero Sport", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 4, "brandId": 1, "categoryId": 1, "modelName": "Xpander Cross", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 5, "brandId": 1, "categoryId": 1, "modelName": "Xpander", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 6, "brandId": 1, "categoryId": 2, "modelName": "Triton", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 7, "brandId": 1, "categoryId": 2, "modelName": "L100 EV", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": "Electric", "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 8, "brandId": 1, "categoryId": 2, "modelName": "L300", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
+    { "id": 9, "brandId": 2, "categoryId": 3, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis." }
   ],
   "units": [],
   "systems": [
-    { "id": 1, "name": "Engine", "description": "Engine system metadata; component and part records require a licensed source." }
+    { "id": 1, "name": "Engine", "description": "Engine system; component dan part number harus berasal dari sumber OEM/dealer." },
+    { "id": 2, "name": "Vehicle Registry", "description": "Registry metadata model Indonesia." }
   ],
   "components": [],
   "spareparts": [],
