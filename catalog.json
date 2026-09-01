@@ -1,5 +1,5 @@
 {
-  "version": "0.6.0-storefront-ready-registry",
+  "version": "0.7.0-illustrated-unit-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
     {
@@ -231,8 +231,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -267,8 +269,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -303,8 +307,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -339,8 +345,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -375,8 +383,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -411,8 +421,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -447,8 +459,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -483,8 +497,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -519,8 +535,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -555,8 +573,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -591,8 +611,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -627,8 +649,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -663,8 +687,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -699,8 +725,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -735,8 +763,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -771,8 +801,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/heavy-equipment-illustration_b2f18a7d.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -807,8 +839,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -843,8 +877,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -879,8 +915,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -915,8 +953,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -951,8 +991,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -987,8 +1029,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1023,8 +1067,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1059,8 +1105,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1095,8 +1143,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1131,8 +1181,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1167,8 +1219,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1203,8 +1257,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/commercial-truck-illustration_2b8db4a5.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1239,8 +1295,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1275,8 +1333,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1311,8 +1371,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1347,8 +1409,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1383,8 +1447,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1419,8 +1485,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1455,8 +1523,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1491,8 +1561,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1527,8 +1599,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1563,8 +1637,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     },
@@ -1599,8 +1675,10 @@
         "verificationStatus": "PENDING_REVIEW"
       },
       "unitMedia": {
-        "image": null,
-        "gallery": []
+        "image": "/manus-storage/passenger-vehicle-illustration_a1c10e8e.jpg",
+        "gallery": [],
+        "assetType": "generated_fallback_illustration",
+        "displayLabel": "Ilustrasi — verifikasi unit diperlukan"
       },
       "hotspots": []
     }
