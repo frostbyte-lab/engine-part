@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-01T00:00:00Z",
+  "brands": [
+    { "id": 1, "name": "Contoh Brand", "country": "Indonesia", "description": "Brand contoh", "logo": null }
+  ],
+  "categories": [
+    { "id": 1, "name": "Alat Berat", "group": "Alat Berat", "description": null }
+  ],
+  "models": [
+    { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "Model Contoh", "modelCode": "MODEL-001", "productionYear": "2020-2025", "engineModel": "Engine Contoh", "description": null }
+  ],
+  "units": [],
+  "systems": [
+    { "id": 1, "name": "Engine", "description": "Sistem mesin" }
+  ],
+  "components": [
+    { "id": 1, "systemId": 1, "name": "Filter Oli", "componentCode": "ENG-FLT", "description": null, "diagram": null }
+  ],
+  "spareparts": [
+    { "id": 1, "componentId": 1, "name": "Filter Oli Contoh", "partNumber": "OF-001", "alternatePartNumber": null, "description": "Sparepart contoh", "function": "Menyaring oli", "specification": null, "unitOfMeasure": "pcs", "manufacturer": "Contoh Manufacturer", "image": null, "installationNotes": null, "status": "VERIFIED", "sourceName": "Katalog internal", "sourceUrl": null }
+  ],
+  "partNumbers": [
+    { "id": 1, "sparepartId": 1, "type": "OEM", "number": "OF-001" }
+  ],
+  "crossReferences": [],
+  "compatibilities": [
+    { "id": 1, "sparepartId": 1, "modelId": 1, "systemId": 1, "componentId": 1, "serialFrom": null, "serialTo": null, "notes": null }
+  ],
+  "images": []
+}
