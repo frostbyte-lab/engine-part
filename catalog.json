@@ -1,14 +1,22 @@
 {
-  "version": "0.3.0-mitsubishi-indonesia-registry",
+  "version": "0.4.0-multibrand-registry",
   "updatedAt": "2026-09-01T00:00:00Z",
   "brands": [
-    { "id": 1, "name": "Mitsubishi Motors", "country": "Indonesia", "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.", "logo": null },
-    { "id": 2, "name": "Mitsubishi Fuso", "country": "Indonesia", "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.", "logo": null }
+    { "id": 1, "name": "Mitsubishi Motors", "country": "Indonesia", "description": "Registry model Indonesia dari situs resmi Mitsubishi Motors Indonesia.", "source": "https://www.mitsubishi-motors.co.id/", "logo": null },
+    { "id": 2, "name": "Mitsubishi Fuso", "country": "Indonesia", "description": "Registry FUSO Indonesia; fitment genuine parts memerlukan verifikasi dealer/chassis.", "source": "https://www.mitsubishi-fuso.com/en/parts-services/parts-accessories/genuine-parts/", "logo": null },
+    { "id": 3, "name": "Caterpillar", "country": "Global / Indonesia", "description": "Cat parts flow berbasis equipment, part number, serial number, dan store; detail fitment perlu verifikasi resmi.", "source": "https://parts.cat.com/en/catcorp", "logo": null },
+    { "id": 4, "name": "SANY", "country": "Global / Indonesia", "description": "SANY service dan parts registry; model dan nomor part perlu identitas mesin serta kanal resmi.", "source": "https://www.sanyglobal.com/product/parts/parts/", "logo": null },
+    { "id": 5, "name": "John Deere", "country": "Global / Indonesia", "description": "John Deere construction/forestry equipment dan parts; fitment detail memerlukan dealer atau portal resmi.", "source": "https://www.deere.com/en-us/products-and-solutions/construction-equipment", "logo": null },
+    { "id": 6, "name": "Komatsu", "country": "Indonesia / Global", "description": "Komatsu equipment dan genuine parts; katalog detail memerlukan model, serial, atau kanal dealer.", "source": "https://www.komatsu.co.id/", "logo": null },
+    { "id": 7, "name": "Volvo CE", "country": "Asia / Indonesia", "description": "Volvo Construction Equipment genuine parts dan product registry; kecocokan wajib diverifikasi per machine ID.", "source": "https://www.volvoce.com/asia/en-as/", "logo": null },
+    { "id": 8, "name": "Hitachi Construction Machinery", "country": "Indonesia / Global", "description": "Hitachi Construction Machinery Indonesia berada dalam jaringan global; parts genuine perlu verifikasi resmi.", "source": "https://www.hitachicm.com/global/en/global-network/", "logo": null },
+    { "id": 9, "name": "Develon", "country": "Global / Indonesia", "description": "Registry brand alat berat tambahan; model dan nomor part menunggu sumber lokal/OEM tervalidasi.", "source": "https://www.develon.com/", "logo": null }
   ],
   "categories": [
     { "id": 1, "name": "Passenger Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup saat ini; tahun produksi dan fitment part perlu diverifikasi per VIN." },
     { "id": 2, "name": "Commercial Vehicle", "group": "Mitsubishi Motors Indonesia", "description": "Lineup kendaraan niaga; nomor part perlu model, engine code, chassis, dan market." },
-    { "id": 3, "name": "Truck & Bus", "group": "Mitsubishi Fuso Indonesia", "description": "FUSO genuine parts; gunakan dealer resmi untuk kecocokan dan nomor part." }
+    { "id": 3, "name": "Truck & Bus", "group": "Mitsubishi Fuso Indonesia", "description": "FUSO genuine parts; gunakan dealer resmi untuk kecocokan dan nomor part." },
+    { "id": 4, "name": "Heavy Equipment", "group": "Multi-brand", "description": "Registry alat berat; nomor part dan fitment harus terhubung ke model/serial resmi." }
   ],
   "models": [
     { "id": 1, "brandId": 1, "categoryId": 1, "modelName": "New Xforce", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
@@ -19,12 +27,21 @@
     { "id": 6, "brandId": 1, "categoryId": 2, "modelName": "Triton", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
     { "id": 7, "brandId": 1, "categoryId": 2, "modelName": "L100 EV", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": "Electric", "description": "Lineup resmi Mitsubishi Motors Indonesia." },
     { "id": 8, "brandId": 1, "categoryId": 2, "modelName": "L300", "modelCode": "CURRENT-ID", "productionYear": "CURRENT", "engineModel": null, "description": "Lineup resmi Mitsubishi Motors Indonesia." },
-    { "id": 9, "brandId": 2, "categoryId": 3, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis." }
+    { "id": 9, "brandId": 2, "categoryId": 3, "modelName": "FUSO Trucks & Buses", "modelCode": "FITMENT-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Katalog publik mengarahkan verifikasi genuine parts melalui dealer resmi dan chassis." },
+    { "id": 10, "brandId": 3, "categoryId": 4, "modelName": "Cat Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model/serial number diperlukan untuk menentukan parts yang tepat." },
+    { "id": 11, "brandId": 4, "categoryId": 4, "modelName": "SANY Equipment Registry", "modelCode": "MACHINE-ID-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model mesin dan kanal service diperlukan untuk fitment." },
+    { "id": 12, "brandId": 5, "categoryId": 4, "modelName": "John Deere Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Equipment model dan serial diperlukan untuk parts lookup." },
+    { "id": 13, "brandId": 6, "categoryId": 4, "modelName": "Komatsu Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk genuine parts lookup." },
+    { "id": 14, "brandId": 7, "categoryId": 4, "modelName": "Volvo CE Equipment Registry", "modelCode": "MACHINE-ID-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Machine identity diperlukan untuk fitment parts." },
+    { "id": 15, "brandId": 8, "categoryId": 4, "modelName": "Hitachi Construction Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk parts lookup." },
+    { "id": 16, "brandId": 9, "categoryId": 4, "modelName": "Develon Equipment Registry", "modelCode": "SERIAL-REQUIRED", "productionYear": "2015—NOW", "engineModel": null, "description": "Model dan serial diperlukan untuk parts lookup." }
   ],
   "units": [],
   "systems": [
     { "id": 1, "name": "Engine", "description": "Engine system; component dan part number harus berasal dari sumber OEM/dealer." },
-    { "id": 2, "name": "Vehicle Registry", "description": "Registry metadata model Indonesia." }
+    { "id": 2, "name": "Hydraulics", "description": "Hydraulic system; fitment bergantung pada machine model dan serial." },
+    { "id": 3, "name": "Undercarriage", "description": "Undercarriage; verifikasi machine family dan serial diperlukan." },
+    { "id": 4, "name": "Vehicle Registry", "description": "Registry metadata model multi-brand Indonesia." }
   ],
   "components": [],
   "spareparts": [],
